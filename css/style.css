@@ -1,0 +1,191 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #888888;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+.nav-item .nav-items {
+  color: #000000;
+}
+.nav-item .home {
+  color: #F25822;
+}
+
+.btn-main {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #F25822;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.grow-be {
+  margin-right: 230px;
+}
+
+.btn-section1, #whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose, #solution .btn-section2 {
+  background-color: #F25822;
+  color: #FFFFFF;
+  width: 140px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  margin-right: 15px;
+}
+
+#intro {
+  margin-top: 30px;
+  background-image: url(../images/image/section1\ img.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#intro .pinkPolygon {
+  position: absolute;
+  bottom: 260px;
+  left: 25px;
+}
+#intro .pinkPolygon2 {
+  position: absolute;
+  top: 30px;
+  left: 480px;
+}
+#intro .greenPolygon {
+  position: absolute;
+  bottom: 35px;
+  left: 470px;
+}
+#intro h1 {
+  margin-top: 100px;
+}
+#intro h1 span {
+  border: 1px solid #F25822;
+  border-radius: 90%;
+}
+#intro p {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+#intro .video {
+  display: inline-block;
+  position: relative;
+}
+#intro .video .ellipse {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  cursor: pointer;
+}
+#intro .video a {
+  text-decoration: none;
+  color: #888888;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.brands {
+  margin-top: 60px;
+  width: 100%;
+}
+
+#solution {
+  height: 500px;
+  background-color: #FAFAFA;
+  margin-top: 60px;
+}
+#solution h1 {
+  font-size: 45px;
+  color: #000000;
+  margin-top: 20px;
+}
+#solution p {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#business {
+  height: 491px;
+}
+#business .growBusiness, #business .driveSales, #business .getQuality {
+  padding: 30px;
+}
+#business .growBusiness .businessHeading, #business .driveSales .businessHeading, #business .driveSales h4, #business .getQuality .businessHeading, #business .getQuality h4 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+#business .growBusiness .btn-business, #business .driveSales .btn-business, #business .getQuality .btn-business {
+  font-weight: 700;
+}
+#business .getQuality {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+#whyChoose {
+  height: 919px;
+  background-color: #FFFFFF;
+}
+#whyChoose .chooseContent {
+  width: 665px;
+}
+#whyChoose p {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+#whyChoose .keyword, #whyChoose .socialMarketing, #whyChoose .seoOptimazadion {
+  background-color: #FFFFFF;
+}
+#whyChoose .keyword h4, #whyChoose .socialMarketing h4, #whyChoose .seoOptimazadion h4 {
+  margin-top: 33px;
+}
+#whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose {
+  width: 150px;
+  margin-bottom: 30px;
+}
+#whyChoose .seoOptimazadion {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+#whyChoose .seoOptimazadion h4 {
+  margin-top: 20px;
+}
+#whyChoose .socialMarketing h4 {
+  margin-top: 20px;
+}
+#whyChoose #seo {
+  height: 800px;
+  background-color: #FFFFFF;
+}
+#whyChoose p {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  #intro {
+    background-image: none;
+  }
+
+  #solution h1 {
+    font-size: 25px;
+  }
+  #solution img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #intro {
+    background-image: none;
+  }
+
+  #solution h1 {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,234 @@
+@import "variables";
+@import "mixins";
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: $textColor;
+}
+
+.nav-item{
+    margin-right: 20px;
+    .nav-items{
+        color: $navItemsColor;
+    }
+    .home{
+        color: $primaryColor;
+    }
+} 
+
+.btn-main{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: $primaryColor;
+    font-size: 12px;
+    color: $btnTextColor;
+}
+
+.grow-be{
+    margin-right: 230px;
+}
+
+.btn-section1{
+    background-color: $primaryColor;
+    color: $btnTextColor;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    margin-right: 15px;
+}
+
+
+#intro{
+    margin-top: 30px;
+    background-image: url(../images/image/section1\ img.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    position: relative;
+    .pinkPolygon{
+        position: absolute;
+        bottom: 260px;
+        left: 25px;
+    }
+    .pinkPolygon2{
+        position: absolute;
+        top: 30px;
+        left: 480px;
+    }
+    .greenPolygon{
+        position: absolute;
+        bottom: 35px;
+        left: 470px;
+    }
+    h1{
+        margin-top: 100px;
+        span{
+            border: 1px solid $primaryColor;
+            border-radius: 90%;
+        }
+    }
+    p{
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 40px
+    }
+
+    .video{
+        display: inline-block;
+        position: relative;
+        .ellipse{
+            position: absolute;
+            top: 9px;
+            left: 11px;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: $textColor;
+            font-size: 15px;
+            margin-left: 8px;
+        }
+    }
+}
+
+.brands{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#solution{
+    height: 500px;
+    background-color: $bGroundColor;
+    margin-top: 60px;
+    h1{
+        font-size: 45px;
+        color: $navItemsColor;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .btn-section2{
+        @extend .btn-section1;
+    }
+}
+
+
+#business{
+    height: 491px;
+    .growBusiness{
+        padding: 30px;
+        .businessHeading{
+            margin-top: 25px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: $navItemsColor;
+        }
+
+        .btn-business{
+            font-weight: 700;
+        }
+    }
+    .getQuality{
+        @extend .growBusiness;
+        box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+        h4{
+            @extend .businessHeading;
+        }
+    }
+    .driveSales{
+        @extend .growBusiness;
+        h4{
+           @extend .businessHeading;
+        }
+    }
+
+}
+
+#whyChoose{
+    height: 919px;
+    background-color: $btnTextColor;
+    .chooseContent{
+        width: 665px;
+    }
+    p{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .keyword{
+        background-color: $btnTextColor;
+        h4{
+            margin-top: 33px;
+        }
+        .btn-choose{
+            @extend .btn-section1;
+            width: 150px;
+            margin-bottom: 30px;
+        }
+    
+    }
+    .seoOptimazadion{
+        @extend .keyword;
+        box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+        h4{
+            margin-top: 20px;
+        }
+    }
+
+    .socialMarketing{
+        @extend .keyword;
+        h4{
+            margin-top: 20px;
+        }
+    }
+
+   #seo{
+    height: 800px;
+    background-color: $btnTextColor;
+   }
+   p{
+    margin-top: 20px;
+   }
+}
+
+
+
+
+
+
+@include mQuerry("mobile"){
+    #intro{
+        background-image: none;
+    }
+
+    #solution{
+        h1{
+            font-size: 25px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+@include mQuerry("tablet"){
+    #intro{
+        background-image: none;
+    }
+
+    #solution{
+        h1{
+            font-size: 28px;
+        }
+    }
+}
