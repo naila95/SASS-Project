@@ -6,12 +6,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+// body{
+//     overflow-x: hidden;
+// }
+
 p{
     color: $textColor;
 }
 
 .nav-item{
-    margin-right: 20px;
+    margin-right: 15px;
     .nav-items{
         color: $navItemsColor;
     }
@@ -190,16 +194,39 @@ p{
             margin-top: 20px;
         }
     }
-
-   #seo{
-    height: 800px;
-    background-color: $btnTextColor;
-   }
-   p{
-    margin-top: 20px;
-   }
 }
 
+
+#seo{
+    height: 800px;
+    background-color: $btnTextColor;
+    .seo-content{
+        margin-top: 25px;
+        margin-bottom: 60px;
+       }
+      
+  .seo-items{
+
+    .socialMedia{
+     margin-bottom: 20px;
+     padding: 25px;
+      h5{
+       margin-top: 10px;
+        }
+   }
+    .email{
+     @extend .socialMedia;
+     box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .optimization{
+      h5{
+        margin-top: 10px;
+        }
+    }
+ }
+}
+ 
 
 
 
