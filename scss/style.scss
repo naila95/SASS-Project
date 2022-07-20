@@ -227,7 +227,63 @@ p{
  }
 }
  
+#numbers{
+    height: 400px;
+    background-color: $btnTextColor;
+    .numbersItems{
+        height: 200px;
+        border: 2px solid #EEEEEE;
+        padding: 40px;
 
+        .orangeDot{
+            height: 15px;
+            width: 15px;
+        }
+    
+        .greenDot{
+            @extend .orangeDot;
+        }
+        .yellowDot{
+            @extend .orangeDot;
+        }
+
+        .happyClients{
+            h1{
+                font-size: 70px;
+                color: $numbersColor;
+                margin-left: 10px;
+            }
+            p{
+                font-size: 18px;
+                color: $numbersColor;
+            }
+        }
+
+        .projectDone{
+            @extend .happyClients;
+            h1{
+                margin-left: 0px;
+            }
+            p{
+                margin-left: 15px;
+            }
+        }
+
+        .experience{
+            @extend .happyClients;
+            h1{
+                margin-left: 32px;
+            }
+        }
+
+        .awards{
+            @extend .happyClients;
+            h1{
+                margin-left: 17px;
+            }
+        }
+    }
+}
 
 
 
