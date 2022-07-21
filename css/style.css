@@ -2,6 +2,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 p {
   color: #888888;
 }
@@ -29,7 +33,7 @@ p {
   margin-right: 230px;
 }
 
-.btn-section1, #whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose, #solution .btn-section2 {
+.btn-section1, #speed .speedBtns .btn-speed3, #whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose, #solution .btn-section2 {
   background-color: #F25822;
   color: #FFFFFF;
   width: 140px;
@@ -93,7 +97,7 @@ p {
 
 .brands {
   margin-top: 60px;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
 #solution {
@@ -191,6 +195,7 @@ p {
   height: 200px;
   border: 2px solid #EEEEEE;
   padding: 40px;
+  flex-wrap: wrap;
 }
 #numbers .numbersItems .orangeDot, #numbers .numbersItems .yellowDot, #numbers .numbersItems .greenDot {
   height: 15px;
@@ -218,16 +223,43 @@ p {
   margin-left: 17px;
 }
 
+#speed {
+  background-image: url(../images/image/speedBackground.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#speed h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#speed .speedContent {
+  padding: 110px 0 110px 110px;
+}
+#speed .speedBtns {
+  margin-top: 60px;
+}
+#speed .speedBtns .btn-speed3 {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 576px) {
   #intro {
     background-image: none;
   }
 
+  #solution {
+    height: 100%;
+  }
   #solution h1 {
     font-size: 25px;
   }
   #solution img {
     width: 100%;
+  }
+
+  #speed {
+    background-image: none;
   }
 }
 @media screen and (max-width: 992px) {
@@ -237,5 +269,9 @@ p {
 
   #solution h1 {
     font-size: 28px;
+  }
+
+  #speed {
+    background-image: none;
   }
 }/*# sourceMappingURL=style.css.map */

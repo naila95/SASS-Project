@@ -6,9 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-// body{
-//     overflow-x: hidden;
-// }
+body{
+    overflow-x: hidden;
+}
 
 p{
     color: $textColor;
@@ -103,7 +103,7 @@ p{
 
 .brands{
     margin-top: 60px;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 #solution{
@@ -234,6 +234,7 @@ p{
         height: 200px;
         border: 2px solid #EEEEEE;
         padding: 40px;
+        flex-wrap: wrap;
 
         .orangeDot{
             height: 15px;
@@ -285,7 +286,33 @@ p{
     }
 }
 
+#speed{
+    background-image: url(../images/image/speedBackground.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 500px;
 
+    h1{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .speedContent{
+        padding: 110px 0 110px 110px;
+    }
+
+    .speedBtns{
+        margin-top: 60px;
+        .btn-speed3{
+            @extend .btn-section1;
+            margin-left: 30px;
+        }
+
+    }
+
+   
+
+}
 
 
 @include mQuerry("mobile"){
@@ -294,12 +321,17 @@ p{
     }
 
     #solution{
+        height: 100%;
         h1{
             font-size: 25px;
         }
         img{
             width: 100%;
         }
+    }
+
+    #speed{
+        background-image: none;
     }
 }
 
@@ -313,5 +345,9 @@ p{
         h1{
             font-size: 28px;
         }
+    }
+
+    #speed{
+        background-image: none;
     }
 }
