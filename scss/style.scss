@@ -381,6 +381,54 @@ p{
        }
 }
 
+#members{
+    height: 700px;
+    background-color: $btnTextColor;
+    h1{
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .membersContent{
+        margin-bottom: 50px;
+        margin-top: 15px;
+    }
+
+    .natasha{
+        border: 1px solid #EEEEEE;
+        padding: 60px 40px;
+        h5{
+            margin: 20px 0 10px;
+        }
+        .membersIcons{
+            img:not(:last-child){
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .john{
+        @extend .natasha;
+        box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
+        h5{
+            color: $primaryColor;
+        }
+    }
+
+    .haris{
+        @extend .natasha;
+    }
+
+    .nelson{
+        @extend .natasha;
+    }
+}
+
+
+
+
+
+
 
 @include mQuerry("mobile"){
     #intro{
