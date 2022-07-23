@@ -230,6 +230,7 @@ p{
 #numbers{
     height: 400px;
     background-color: $btnTextColor;
+    margin-top: 50px;
     .numbersItems{
         height: 200px;
         border: 2px solid #EEEEEE;
@@ -310,18 +311,95 @@ p{
 
     }
 
-   
+}
 
+#plans{
+    height: 900px;
+    margin-top: 30px;
+    padding: 80px 200px;
+    background-color: $bGroundColor;
+    .plansContent{
+        margin-bottom: 60px;
+    }
+    .plus{
+        background-color: $btnTextColor;
+        padding: 40px;
+        .btn-plus{
+            @extend .btn-section1;
+            background: rgba(242, 88, 34, 0.25);
+            color: $btn-plan;
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        h5{
+            margin-top: 20px;
+        }
+
+        .plusContent{
+            position: relative;
+            margin: 15px 0;
+            h6{
+                .mounth{
+                    font-size: 70px;
+                }
+            }
+            .currency{
+                position: absolute;
+                top: 15px;
+                left: 50px;
+                
+            }
+        }
+
+    }
+
+    .beginner{
+        @extend .plus;
+        box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+
+        h5{
+            color: $primaryColor;
+        }
+
+        .btn-beginner{
+            @extend .btn-section1;
+            width: 200px;
+            margin-top: 10px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .advanced{
+        @extend .plus;
+       }
+
+       .currencyAdvanced{
+        @extend .currency;
+        left: 30px;
+       }
 }
 
 
 @include mQuerry("mobile"){
     #intro{
         background-image: none;
+        .pinkPolygon{
+            display: none;
+        }
+
+        .pinkPolygon2{
+            display: none;
+        }
+
+        .greenPolygon{
+            display: none;
+        }
     }
 
     #solution{
-        height: 100%;
+        height: auto;
         h1{
             font-size: 25px;
         }
@@ -330,24 +408,94 @@ p{
         }
     }
 
+    
+    #business{
+        height: auto;
+    }
+
+    #whyChoose{
+        height: auto;
+    }
+
+    #seo{
+        height: auto;
+    }
+
     #speed{
         background-image: none;
+        height: auto;
     }
+
+    #numbers{
+        height: auto;
+    }
+
+    #plans{
+        height: auto;
+        .plusContent{
+            h6{
+                .mounth{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
 }
 
 
 @include mQuerry("tablet"){
     #intro{
         background-image: none;
+        .pinkPolygon{
+            display: none;
+        }
+
+        .pinkPolygon2{
+            display: none;
+        }
+
+        .greenPolygon{
+            display: none;
+        }
     }
 
     #solution{
+        height: auto;
         h1{
             font-size: 28px;
         }
     }
 
+    #business{
+        height: auto;
+    }
+
+    #whyChoose{
+        height: auto;
+    }
+
+    #seo{
+        height: auto;
+    }
+
     #speed{
         background-image: none;
+        height: auto;
+    }
+
+    #numbers{
+        height: auto;
+    }
+
+    #plans{
+        height: auto;
+        .plusContent{
+            h6{
+                .mounth{
+                    font-size: 20px;
+                }
+            }
+        }
     }
 }

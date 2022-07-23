@@ -33,7 +33,7 @@ p {
   margin-right: 230px;
 }
 
-.btn-section1, #speed .speedBtns .btn-speed3, #whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose, #solution .btn-section2 {
+.btn-section1, #plans .beginner .btn-beginner, #plans .plus .btn-plus, #plans .advanced .btn-plus, #plans .beginner .btn-plus, #speed .speedBtns .btn-speed3, #whyChoose .keyword .btn-choose, #whyChoose .socialMarketing .btn-choose, #whyChoose .seoOptimazadion .btn-choose, #solution .btn-section2 {
   background-color: #F25822;
   color: #FFFFFF;
   width: 140px;
@@ -190,6 +190,7 @@ p {
 #numbers {
   height: 400px;
   background-color: #FFFFFF;
+  margin-top: 50px;
 }
 #numbers .numbersItems {
   height: 200px;
@@ -243,13 +244,71 @@ p {
   margin-left: 30px;
 }
 
+#plans {
+  height: 900px;
+  margin-top: 30px;
+  padding: 80px 200px;
+  background-color: #FAFAFA;
+}
+#plans .plansContent {
+  margin-bottom: 60px;
+}
+#plans .plus, #plans .advanced, #plans .beginner {
+  background-color: #FFFFFF;
+  padding: 40px;
+}
+#plans .plus .btn-plus, #plans .advanced .btn-plus, #plans .beginner .btn-plus {
+  background: rgba(242, 88, 34, 0.25);
+  color: #F3602D;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#plans .plus h5, #plans .advanced h5, #plans .beginner h5 {
+  margin-top: 20px;
+}
+#plans .plus .plusContent, #plans .advanced .plusContent, #plans .beginner .plusContent {
+  position: relative;
+  margin: 15px 0;
+}
+#plans .plus .plusContent h6 .mounth, #plans .advanced .plusContent h6 .mounth, #plans .beginner .plusContent h6 .mounth {
+  font-size: 70px;
+}
+#plans .plus .plusContent .currency, #plans .plus .plusContent .currencyAdvanced, #plans .advanced .plusContent .currency, #plans .advanced .plusContent .currencyAdvanced, #plans .beginner .plusContent .currency, #plans .beginner .plusContent .currencyAdvanced {
+  position: absolute;
+  top: 15px;
+  left: 50px;
+}
+#plans .beginner {
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);
+}
+#plans .beginner h5 {
+  color: #F25822;
+}
+#plans .beginner .btn-beginner {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+#plans .currencyAdvanced {
+  left: 30px;
+}
+
 @media screen and (max-width: 576px) {
   #intro {
     background-image: none;
   }
-
+  #intro .pinkPolygon {
+    display: none;
+  }
+  #intro .pinkPolygon2 {
+    display: none;
+  }
+  #intro .greenPolygon {
+    display: none;
+  }
   #solution {
-    height: 100%;
+    height: auto;
   }
   #solution h1 {
     font-size: 25px;
@@ -257,21 +316,68 @@ p {
   #solution img {
     width: 100%;
   }
-
+  #business {
+    height: auto;
+  }
+  #whyChoose {
+    height: auto;
+  }
+  #seo {
+    height: auto;
+  }
   #speed {
     background-image: none;
+    height: auto;
+  }
+  #numbers {
+    height: auto;
+  }
+  #plans {
+    height: auto;
+  }
+  #plans .plusContent h6 .mounth {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 992px) {
   #intro {
     background-image: none;
   }
-
+  #intro .pinkPolygon {
+    display: none;
+  }
+  #intro .pinkPolygon2 {
+    display: none;
+  }
+  #intro .greenPolygon {
+    display: none;
+  }
+  #solution {
+    height: auto;
+  }
   #solution h1 {
     font-size: 28px;
   }
-
+  #business {
+    height: auto;
+  }
+  #whyChoose {
+    height: auto;
+  }
+  #seo {
+    height: auto;
+  }
   #speed {
     background-image: none;
+    height: auto;
+  }
+  #numbers {
+    height: auto;
+  }
+  #plans {
+    height: auto;
+  }
+  #plans .plusContent h6 .mounth {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
