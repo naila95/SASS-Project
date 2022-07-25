@@ -40,4 +40,12 @@ $(document).ready(function(){
       ]
     });
 
+
+    $('.newsSlider').slick({
+        centerMode: true,
+        dots: true,
+        initialSlide: 1,
+        slidesToShow: 2,
+      });
+
 });

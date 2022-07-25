@@ -345,6 +345,45 @@ p {
   border-radius: 50%;
   margin-bottom: 15px;
 }
+#clientsSay .clientsSlider .slick-dots {
+  bottom: 200px;
+  color: #F25822;
+}
+
+#news {
+  height: 738px;
+}
+#news .newsMainContent {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+#news .newsSlider .newsItem, #news .newsSlider .newsItem3, #news .newsSlider .newsItem2 {
+  width: 770px;
+  box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+}
+#news .newsSlider .newsItem .newsContent, #news .newsSlider .newsItem3 .newsContent, #news .newsSlider .newsItem2 .newsContent {
+  width: 400px;
+  padding: 20px;
+}
+#news .newsSlider .newsItem .newsContent .newsIcons, #news .newsSlider .newsItem3 .newsContent .newsIcons, #news .newsSlider .newsItem2 .newsContent .newsIcons {
+  margin: 15px;
+}
+#news .newsSlider .newsItem .newsContent .newsIcons .iconContent, #news .newsSlider .newsItem3 .newsContent .newsIcons .iconContent, #news .newsSlider .newsItem2 .newsContent .newsIcons .iconContent {
+  font-size: 11px;
+  color: #888888;
+}
+#news .newsSlider .newsItem .newsLink, #news .newsSlider .newsItem3 .newsLink, #news .newsSlider .newsItem2 .newsLink {
+  text-decoration: none;
+  color: #F25822;
+}
+#news .newsSlider .newsItem2 {
+  border: 2px solid #EEEEEE;
+}
+#news .newsSlider .slick-dots {
+  bottom: 200px;
+  color: #F25822;
+}
 
 @media screen and (max-width: 576px) {
   #intro {
