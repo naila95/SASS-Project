@@ -322,6 +322,30 @@ p {
 #members .john h5 {
   color: #F25822;
 }
+#clientsSay {
+  height: 660px;
+}
+#clientsSay .clientsSayContent {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+#clientsSay .clientsSlider .selena {
+  border: 2px solid #EEEEEE;
+  padding: 20px;
+  background: #FFFFFF;
+  margin-right: 20px;
+}
+#clientsSay .clientsSlider .rabith {
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+#clientsSay .clientsSlider .clientRabith {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 576px) {
   #intro {
     background-image: none;
@@ -366,6 +390,15 @@ p {
   #plans .plusContent h6 .mounth {
     font-size: 20px;
   }
+  #members {
+    height: auto;
+  }
+  #clientsSay {
+    height: auto;
+  }
+  #clientsSay h1 {
+    margin-top: 40px;
+  }
 }
 @media screen and (max-width: 992px) {
   #intro {
@@ -407,5 +440,14 @@ p {
   }
   #plans .plusContent h6 .mounth {
     font-size: 20px;
+  }
+  #members {
+    height: auto;
+  }
+  #clientsSay {
+    height: auto;
+  }
+  #clientsSay h1 {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
