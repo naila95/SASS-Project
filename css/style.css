@@ -358,7 +358,7 @@ p {
   margin-bottom: 60px;
 }
 #news .newsSlider .newsItem, #news .newsSlider .newsItem3, #news .newsSlider .newsItem2 {
-  width: 770px;
+  width: 780px;
   box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
   margin-right: 30px;
 }
@@ -383,6 +383,50 @@ p {
 #news .newsSlider .slick-dots {
   bottom: 200px;
   color: #F25822;
+}
+
+footer {
+  height: 488px;
+  background-color: #F3F3F3;
+}
+footer h5 {
+  margin-top: 75px;
+}
+footer .footerIcons p {
+  width: 270px;
+  color: #666666;
+}
+footer .footerIcons .footerLogo {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+footer .footerIcons .footerSocial {
+  margin-top: 25px;
+}
+footer .footerIcons .footerSocial img:not(:last-child) {
+  margin-right: 15px;
+}
+footer .ourCompany h5, footer .ourServices h5 {
+  margin-bottom: 20px;
+}
+footer .ourCompany ul, footer .ourServices ul {
+  color: #F25822;
+}
+footer .ourCompany ul li a, footer .ourServices ul li a {
+  text-decoration: none;
+  list-style-position: inside;
+  color: #666666;
+  font-size: 16px;
+  line-height: 230%;
+}
+footer .contactUs .footerContent {
+  color: #333333;
+}
+footer .footerLine {
+  margin: 50px;
+}
+footer .copyright {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 576px) {
@@ -421,6 +465,9 @@ p {
     height: auto;
   }
   #numbers {
+    height: auto;
+  }
+  #numbers .numbersItems {
     height: auto;
   }
   #plans {
@@ -472,6 +519,9 @@ p {
     height: auto;
   }
   #numbers {
+    height: auto;
+  }
+  #numbers .numbersItems {
     height: auto;
   }
   #plans {
