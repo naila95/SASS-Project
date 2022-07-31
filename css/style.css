@@ -173,11 +173,11 @@ p {
   margin-top: 25px;
   margin-bottom: 60px;
 }
-#seo .seo-items .socialMedia, #seo .seo-items .email {
+#seo .seo-items .socialMedia, #seo .seo-items .optimization, #seo .seo-items .email {
   margin-bottom: 20px;
   padding: 25px;
 }
-#seo .seo-items .socialMedia h5, #seo .seo-items .email h5 {
+#seo .seo-items .socialMedia h5, #seo .seo-items .optimization h5, #seo .seo-items .email h5 {
   margin-top: 10px;
 }
 #seo .seo-items .email {
@@ -231,14 +231,20 @@ p {
   height: 500px;
 }
 #speed h1 {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 #speed .speedContent {
   padding: 110px 0 110px 110px;
 }
 #speed .speedBtns {
-  margin-top: 60px;
+  margin-top: 80px;
+  width: 590px;
+}
+#speed .speedBtns .input-group {
+  width: 400px;
+  height: 50px;
+  background-color: #EEEEEE;
 }
 #speed .speedBtns .btn-speed3 {
   margin-left: 30px;
@@ -430,6 +436,10 @@ footer .copyright {
 }
 
 @media screen and (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
   #intro {
     background-image: none;
   }
@@ -460,9 +470,20 @@ footer .copyright {
   #seo {
     height: auto;
   }
+  #seo .seo-items .socialMedia img, #seo .seo-items .email img, #seo .seo-items .optimization img {
+    display: none;
+  }
   #speed {
     background-image: none;
     height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #speed .speedContent {
+    padding: 0;
+  }
+  #speed .speedContent .speedBtns {
+    width: auto;
   }
   #numbers {
     height: auto;
@@ -472,9 +493,15 @@ footer .copyright {
   }
   #plans {
     height: auto;
+    width: auto;
+    padding: 0;
+    margin-bottom: 20px;
   }
-  #plans .plusContent h6 .mounth {
-    font-size: 20px;
+  #plans .plus, #plans .beginner, #plans .advanced, #plans .beginner, #plans .advanced {
+    padding: 0;
+  }
+  #plans .plus .plusContent h6 .mounth, #plans .beginner .plusContent h6 .mounth, #plans .advanced .plusContent h6 .mounth {
+    font-size: auto;
   }
   #members {
     height: auto;
@@ -485,8 +512,22 @@ footer .copyright {
   #clientsSay h1 {
     margin-top: 40px;
   }
+  #news {
+    height: auto;
+  }
+  #news .newsSlider .newsImg {
+    display: none;
+  }
+  footer {
+    height: auto;
+    width: auto;
+  }
 }
 @media screen and (max-width: 992px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
   #intro {
     background-image: none;
   }
@@ -514,9 +555,20 @@ footer .copyright {
   #seo {
     height: auto;
   }
+  #seo .seo-items .socialMedia img, #seo .seo-items .email img, #seo .seo-items .optimization img {
+    display: none;
+  }
   #speed {
     background-image: none;
     height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #speed .speedContent {
+    padding: 0;
+  }
+  #speed .speedContent .speedBtns {
+    width: auto;
   }
   #numbers {
     height: auto;
@@ -526,9 +578,15 @@ footer .copyright {
   }
   #plans {
     height: auto;
+    width: auto;
+    padding: 0;
+    margin-bottom: 20px;
   }
-  #plans .plusContent h6 .mounth {
-    font-size: 20px;
+  #plans .plus, #plans .beginner, #plans .advanced, #plans .beginner, #plans .advanced {
+    padding: 0;
+  }
+  #plans .plus .plusContent h6 .mounth, #plans .beginner .plusContent h6 .mounth, #plans .advanced .plusContent h6 .mounth {
+    font-size: auto;
   }
   #members {
     height: auto;
@@ -538,5 +596,15 @@ footer .copyright {
   }
   #clientsSay h1 {
     margin-top: 40px;
+  }
+  #news {
+    height: auto;
+  }
+  #news .newsSlider .newsImg {
+    display: none;
+  }
+  footer {
+    height: auto;
+    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
