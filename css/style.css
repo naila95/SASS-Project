@@ -442,6 +442,8 @@ footer .copyright {
   }
   #intro {
     background-image: none;
+    margin-top: 0;
+    width: 100%;
   }
   #intro .pinkPolygon {
     display: none;
@@ -454,6 +456,8 @@ footer .copyright {
   }
   #solution {
     height: auto;
+    width: 100%;
+    margin-top: 0;
   }
   #solution h1 {
     font-size: 25px;
@@ -463,12 +467,18 @@ footer .copyright {
   }
   #business {
     height: auto;
+    width: 100%;
   }
   #whyChoose {
     height: auto;
+    width: 100%;
+  }
+  #whyChoose .chooseContent {
+    width: auto;
   }
   #seo {
     height: auto;
+    width: 100%;
   }
   #seo .seo-items .socialMedia img, #seo .seo-items .email img, #seo .seo-items .optimization img {
     display: none;
@@ -476,8 +486,12 @@ footer .copyright {
   #speed {
     background-image: none;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #speed h1 {
+    margin-top: 0;
   }
   #speed .speedContent {
     padding: 0;
@@ -487,6 +501,8 @@ footer .copyright {
   }
   #numbers {
     height: auto;
+    width: 100%;
+    margin-top: 0;
   }
   #numbers .numbersItems {
     height: auto;
@@ -495,7 +511,7 @@ footer .copyright {
     height: auto;
     width: auto;
     padding: 0;
-    margin-bottom: 20px;
+    margin-top: 0;
   }
   #plans .plus, #plans .beginner, #plans .advanced, #plans .beginner, #plans .advanced {
     padding: 0;
@@ -505,22 +521,53 @@ footer .copyright {
   }
   #members {
     height: auto;
+    width: 100%;
+  }
+  #members h1 {
+    margin-top: 0;
   }
   #clientsSay {
     height: auto;
+    width: 100%;
   }
   #clientsSay h1 {
     margin-top: 40px;
   }
   #news {
     height: auto;
+    width: 100%;
   }
   #news .newsSlider .newsImg {
     display: none;
   }
   footer {
     height: auto;
-    width: auto;
+    width: 100%;
+  }
+  footer h5 {
+    margin-top: 0;
+  }
+  footer .footerLine {
+    display: none;
+  }
+  footer .copyright {
+    margin-top: 0;
+  }
+  footer .footerIcons p {
+    width: 100%;
+  }
+  footer .footerIcons .footerLogo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  footer .footerIcons .footerSocial {
+    margin-bottom: 10px;
+  }
+  footer .footerIcons .footerSocial img:not(:last-child) {
+    margin-right: 0;
+  }
+  footer .ourCompany h5, footer .ourServices h5 {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 992px) {
@@ -530,6 +577,8 @@ footer .copyright {
   }
   #intro {
     background-image: none;
+    width: 100%;
+    margin-top: 0;
   }
   #intro .pinkPolygon {
     display: none;
@@ -542,27 +591,39 @@ footer .copyright {
   }
   #solution {
     height: auto;
+    width: 100%;
+    margin-top: 0;
   }
   #solution h1 {
     font-size: 28px;
   }
   #business {
     height: auto;
+    width: 100%;
   }
   #whyChoose {
     height: auto;
+    width: 100%;
+  }
+  #whyChoose .chooseContent {
+    width: auto;
   }
   #seo {
     height: auto;
+    width: 100%;
   }
   #seo .seo-items .socialMedia img, #seo .seo-items .email img, #seo .seo-items .optimization img {
     display: none;
   }
   #speed {
     background-image: none;
+    width: 100%;
     height: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #speed h1 {
+    margin-top: 0;
   }
   #speed .speedContent {
     padding: 0;
@@ -572,15 +633,18 @@ footer .copyright {
   }
   #numbers {
     height: auto;
+    width: 100%;
+    margin-top: 0;
   }
   #numbers .numbersItems {
     height: auto;
   }
   #plans {
     height: auto;
+    width: 100%;
     width: auto;
     padding: 0;
-    margin-bottom: 20px;
+    margin-top: 0;
   }
   #plans .plus, #plans .beginner, #plans .advanced, #plans .beginner, #plans .advanced {
     padding: 0;
@@ -590,21 +654,52 @@ footer .copyright {
   }
   #members {
     height: auto;
+    width: 100%;
+  }
+  #members h1 {
+    margin-top: 0;
   }
   #clientsSay {
     height: auto;
+    width: 100%;
   }
   #clientsSay h1 {
     margin-top: 40px;
   }
   #news {
     height: auto;
+    width: 100%;
   }
   #news .newsSlider .newsImg {
     display: none;
   }
   footer {
     height: auto;
-    width: auto;
+    width: 100%;
+  }
+  footer h5 {
+    margin-top: 0;
+  }
+  footer .footerLine {
+    display: none;
+  }
+  footer .copyright {
+    margin-top: 0;
+  }
+  footer .footerIcons p {
+    width: 100%;
+  }
+  footer .footerIcons .footerLogo {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  footer .footerIcons .footerSocial {
+    margin-bottom: 10px;
+  }
+  footer .footerIcons .footerSocial img:not(:last-child) {
+    margin-right: 0;
+  }
+  footer .ourCompany h5, footer .ourServices h5 {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */

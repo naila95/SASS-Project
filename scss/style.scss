@@ -589,6 +589,8 @@ footer{
     
     #intro{
         background-image: none;
+        margin-top: 0;
+        width: 100%;
         .pinkPolygon{
             display: none;
         }
@@ -604,6 +606,8 @@ footer{
 
     #solution{
         height: auto;
+        width: 100%;
+        margin-top: 0;
         h1{
             font-size: 25px;
         }
@@ -615,14 +619,20 @@ footer{
     
     #business{
         height: auto;
+        width: 100%;
     }
 
     #whyChoose{
         height: auto;
+        width: 100%;
+        .chooseContent{
+            width: auto;
+        }
     }
 
     #seo{
         height: auto;
+        width: 100%;
         .seo-items{
             .socialMedia, .email, .optimization{
                 img{
@@ -635,8 +645,12 @@ footer{
     #speed{
         background-image: none;
         height: auto;
-        margin-top: 30px;
-        margin-bottom: 50px;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        h1{
+            margin-top: 0;
+        }
         .speedContent{
             padding: 0;
             .speedBtns{
@@ -648,6 +662,8 @@ footer{
 
     #numbers{
         height: auto;
+        width: 100%;
+        margin-top: 0;
         .numbersItems{
             height: auto;
         }
@@ -657,7 +673,7 @@ footer{
         height: auto;
         width: auto;
         padding: 0;
-        margin-bottom: 20px;
+        margin-top: 0;
         .plus, .beginner, .advanced{
             padding: 0;
 
@@ -675,10 +691,15 @@ footer{
 
     #members{
         height: auto;
+        width: 100%;
+        h1{
+            margin-top: 0;
+        }
     }
 
     #clientsSay{
         height: auto;
+        width: 100%;
         h1{
             margin-top: 40px;
         }
@@ -686,6 +707,7 @@ footer{
 
     #news{
         height: auto;
+        width: 100%;
         .newsSlider{
             .newsImg{
                 display: none;
@@ -695,14 +717,45 @@ footer{
 
     footer{
         height: auto;
-        width: auto;
+        width: 100%;
+        h5{
+            margin-top: 0;
+        }
+        .footerLine{
+            display: none;
+        }
+        .copyright{
+            margin-top: 0;
+        }
+        
+        .footerIcons{
+            p{
+                width: 100%;
+            }
+            .footerLogo{
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            .footerSocial{
+                margin-bottom: 10px;
+            }
+            .footerSocial img:not(:last-child){
+                margin-right: 0;
+            }
+        }
+
+        .ourCompany, .ourServices{
+            h5{
+                margin-bottom: 0;
+            }
+        }
+            
     }
 
 }
 
 
 @include mQuerry("tablet"){
-
     header{
         display: flex;
         justify-content: space-between;
@@ -710,6 +763,8 @@ footer{
     
     #intro{
         background-image: none;
+        width: 100%;
+        margin-top: 0;
         .pinkPolygon{
             display: none;
         }
@@ -725,6 +780,8 @@ footer{
 
     #solution{
         height: auto;
+        width: 100%;
+        margin-top: 0;
         h1{
             font-size: 28px;
         }
@@ -732,14 +789,20 @@ footer{
 
     #business{
         height: auto;
+        width: 100%;
     }
 
     #whyChoose{
         height: auto;
+        width: 100%;
+        .chooseContent{
+            width: auto;
+        }
     }
 
     #seo{
         height: auto;
+        width: 100%;
         .seo-items{
             .socialMedia, .email, .optimization{
                 img{
@@ -751,9 +814,13 @@ footer{
 
     #speed{
         background-image: none;
+        width: 100%;
         height: auto;
-        margin-top: 30px;
-        margin-bottom: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        h1{
+            margin-top: 0;
+        }
         .speedContent{
             padding: 0;
             .speedBtns{
@@ -765,6 +832,8 @@ footer{
 
     #numbers{
         height: auto;
+        width: 100%;
+        margin-top: 0;
         .numbersItems{
             height: auto;
         }
@@ -772,9 +841,10 @@ footer{
 
     #plans{
         height: auto;
+        width: 100%;
         width: auto;
         padding: 0;
-        margin-bottom: 20px;
+        margin-top: 0;
         .plus, .beginner, .advanced{
             padding: 0;
 
@@ -791,10 +861,15 @@ footer{
 
     #members{
         height: auto;
+        width: 100%;
+        h1{
+            margin-top: 0;
+        }
     }
 
     #clientsSay{
         height: auto;
+        width: 100%;
         h1{
             margin-top: 40px;
         }
@@ -802,6 +877,7 @@ footer{
 
     #news{
         height: auto;
+        width: 100%;
         .newsSlider{
             .newsImg{
                 display: none;
@@ -811,6 +887,39 @@ footer{
 
     footer{
         height: auto;
-        width: auto;
+        width: 100%;
+        h5{
+            margin-top: 0;
+        }
+        .footerLine{
+            display: none;
+        }
+        .copyright{
+            margin-top: 0;
+        }
+       .footerIcons{
+        p{
+            width: 100%;
+        }
+        .footerLogo{
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .footerSocial{
+            margin-bottom: 10px;
+        }
+        .footerSocial img:not(:last-child){
+            margin-right: 0;
+        }
+
+       }
+
+       .ourCompany, .ourServices{
+        h5{
+            margin-bottom: 0;
+        }
+       }
+       
     }
+    
 }
